@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>homework</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./nomoz.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="Title">Nomoz Vaqtlari</h1>
+    <div class="continer">
+        <div class="btn-control">
+            <button class="btn active" data-id="bugingi">Bugin</button>
+            <button class="btn" data-id="hafta">Hafta</button>
+            <button class="btn" data-id="oy">Bir Oy</button>
+            <button class="btn htavqin">Bizning Loyiha</button>
+            <p class="soat">12:12:12</p>
+            <input type="search" id="search" placeholder="Viloyatingizni Yozing">
+        </div>
+        <article class="arteglis">
+            <ul class="list active" id="bugingi"><li class="item" id="day"></li></ul>
+            <ul class="list" id="hafta"></ul>
+            <ul class="list" id="oy"></ul>
+            <div class="leading"></div>
+            <div class="loader">
+                <span></span>
+                <span></span>
+            </div>
+        </article>
+    </div>
+    <script src='./nomoz.js'></script>
+</body>
+</html>
